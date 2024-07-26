@@ -1,3 +1,4 @@
+
 # SPDX-License-Identifier: Apache-2.0
 version: '2.1'
 
@@ -8,13 +9,11 @@ volumes:
 networks:
   mynetwork.com:
     name: fabric_test
-    external: true
 
 services:
 
   explorerdb.mynetwork.com:
-    # 将镜像上传至了DockerHub，加速下载，原来是ghcr.io
-    image: realhaha/explorer-db:1.0
+    image: ghcr.io/hyperledger-labs/explorer-db:latest
     container_name: explorerdb.mynetwork.com
     hostname: explorerdb.mynetwork.com
     environment:
@@ -32,15 +31,14 @@ services:
       - mynetwork.com
 
   explorer.mynetwork.com:
-    # 将镜像上传至了DockerHub，加速下载，原来是ghcr.io
-    image: realhaha/explorer:1.0
+    image: ghcr.io/hyperledger-labs/explorer:latest
     container_name: explorer.mynetwork.com
     hostname: explorer.mynetwork.com
     environment:
       - DATABASE_HOST=explorerdb.mynetwork.com
       - DATABASE_DATABASE=fabricexplorer
       - DATABASE_USERNAME=hppoc
-      - DATABASE_PASSWD=password
+      - DATABASE_PASSWD=hppoc
       - LOG_LEVEL_APP=info
       - LOG_LEVEL_DB=info
       - LOG_LEVEL_CONSOLE=debug
