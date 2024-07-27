@@ -52,5 +52,29 @@ func SetupRouter() *gin.Engine {
 	r.POST("/getAllFruitInfo", middleware.JWTAuthMiddleware(), con.GetAllFruitInfo)
 	// 获取农产品上链历史(溯源)
 	r.POST("/getFruitHistory", middleware.JWTAuthMiddleware(), con.GetFruitHistory)
+
+	r.POST("/manufacturer/create", )
+	// 创建制造商
+	r.POST("/manufacturer/producedrug", )
+	// 造药
+	
+	r.POST("/hospital/create", )
+	// 创建医院
+	r.POST("/hospital/modifyreport", )
+	// 编辑体检报告
+	r.GET("/hospital/buydrug", )
+	// 购买药品
+	r.GET("/hospital/tracedrug", )
+	// 医院追踪药品
+
+	r.POST("/patient/create", )
+	// 创建病人
+	r.GET("/patient/viewreport", )
+	// 查看体检报告
+	r.GET("/patient/buydrug", )
+	// 病人买药
+	r.GET("/patient/tracedrug", )
+	// 病人追踪药品
+	
 	return r
 }
