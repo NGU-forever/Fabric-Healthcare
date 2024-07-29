@@ -235,7 +235,7 @@ func (pc *PatientContract) TraceDrug(ctx contractapi.TransactionContextInterface
 	return DrugInfoPatient{}, fmt.Errorf("drug not found")
 }
 
-func (mc *Manufacturer) GetPatients(ctx contractapi.TransactionContextInterface) ([]string, error) {
+func (pc *PatientContract) GetPatients(ctx contractapi.TransactionContextInterface) ([]string, error) {
 	var patientList []string
 	for patientName := range manufacturers {
 		patientList = append(patientList, patientName)
