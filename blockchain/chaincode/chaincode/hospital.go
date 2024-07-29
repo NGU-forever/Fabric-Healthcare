@@ -255,7 +255,7 @@ func (hc *HospitalContract) GetPatients(ctx contractapi.TransactionContextInterf
 // // Returns:
 // // - []string: a slice containing the names of all hospitals if the operation is successful.
 // // - error: nil if the operation is successful, or an error message if it fails.
-func (pc *PatientContract) GetHospitals(ctx contractapi.TransactionContextInterface) ([]string, error) {
+func (hc *HospitalContract) GetHospitals(ctx contractapi.TransactionContextInterface) ([]string, error) {
 	var hospitalList []string
 	for hospitalName := range hospitals {
 		hospitalList = append(hospitalList, hospitalName)
