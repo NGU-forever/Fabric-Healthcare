@@ -237,7 +237,7 @@ func (pc *PatientContract) TraceDrug(ctx contractapi.TransactionContextInterface
 
 func (pc *PatientContract) GetPatients(ctx contractapi.TransactionContextInterface) ([]string, error) {
 	var patientList []string
-	for patientName := range manufacturers {
+	for patientName := range patients {
 		patientList = append(patientList, patientName)
 	}
 	return patientList, nil
