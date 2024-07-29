@@ -115,7 +115,7 @@ func (mc *ManufacturerContract) ProduceDrug(ctx contractapi.TransactionContextIn
 	return traceCode, ctx.GetStub().PutState(manufacturerName, manufacturerJSON)
 }
 
-func (mc *Manufacturer) GetManufacturers(ctx contractapi.TransactionContextInterface) ([]string, error) {
+func (mc *ManufacturerContract) GetManufacturers(ctx contractapi.TransactionContextInterface) ([]string, error) {
 	var manufacturerList []string
 	for manufacturerName := range manufacturers {
 		manufacturerList = append(manufacturerList, manufacturerName)
