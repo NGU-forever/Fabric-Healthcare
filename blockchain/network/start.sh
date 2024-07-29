@@ -24,17 +24,19 @@ done
 # blockchain up and create channels
  ./network.sh up createChannel
 
-
-# deploy chaincode
-./network.sh deployCC -ccn mycc -ccp ../chaincode -ccl go
-
  # start explorer
 cd explorer
 export EXPLORER_CONFIG_FILE_PATH=./config.json
 export EXPLORER_PROFILE_DIR_PATH=./connection-profile
 export FABRIC_CRYPTO_PATH=./organizations
 cp -r ../organizations/ .
-docker-compose.yaml up -d
+docker-compose up -d
+
+# deploy chaincode
+cd ~/Fabric-Healthcare/blockchain/network/
+./network.sh deployCC -ccn mycc -ccp ../chaincode -ccl go
+
+
 
 
 
