@@ -11,12 +11,33 @@ import (
 	"strings"
 )
 
-// GenerateTraceCode 生成一个唯一的溯源码，包含药品名称、厂家、价格和生产时间
+// GenerateTraceCode generates a unique trace code that includes the drug name, manufacturer, price, and production time.
+// Parameters:
+// - drugName: the name of the drug.
+// - manufacturer: the name of the manufacturer.
+// - price: the price of the drug.
+// - productionTime: the time the drug was produced.
+//
+// This function concatenates the provided parameters with a randomly generated integer to create a unique trace code.
+//
+// Returns:
+// - string: the generated trace code.
 func GenerateTraceCode(drugName, manufacturer, price, productionTime string) string {
 	return fmt.Sprintf("%s-%s-%s-%s-%d", drugName, manufacturer, price, productionTime, rand.Int())
 }
 
-// DecodeTraceCode 解码溯源码并返回药品信息
+// DecodeTraceCode decodes a trace code to extract the drug name, manufacturer, price, and production time.
+// Parameters:
+// - traceCode: the trace code to decode.
+//
+// This function splits the trace code into its constituent parts and converts the price from string to float.
+//
+// Returns:
+// - string: the drug name.
+// - string: the manufacturer name.
+// - float64: the price of the drug.
+// - string: the production time.
+// - error: an error message if the trace code format is invalid or the price conversion fails.
 func DecodeTraceCode(traceCode string) (string, string, float64, string, error) {
 	parts := strings.Split(traceCode, "-")
 	if len(parts) < 5 {
