@@ -147,6 +147,27 @@ sudo apt install jq
 git clone https://github.com/NGU-forever/Fabric-Healthcare.git
 ```
 
+```sh
+unzip Fabric-Healthcare-main.zip
+```
+
+#### Download the binary files
+
+```sh
+cd Fabric-Healthcare/blockchain
+curl -sSL https://github.com/hyperledger/fabric/releases/download/v2.5.0/hyperledger-fabric-linux-amd64-2.5.0.tar.gz -o fabric-bin.tar.gz
+```
+
+#### Extract the binary files
+
+```sh
+tar -xvf fabric-bin.tar.gz
+```
+
+```sh
+mv bin network/
+```
+
 ### 5. Blockchain
 
 #### Start Blockchain
