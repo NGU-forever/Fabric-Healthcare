@@ -252,6 +252,12 @@ docker rm -f $(docker ps -aq)
 
 smart_contract_addresses can check Hyperledger explorer: http://47.237.161.142:8080 (User:exploreradmin, Passsword:exploreradminpw)
 
+#### Installing go mod
+```sh
+cd ../chaincode
+go mod vendor
+```
+
 ## Backend
 
 #### Starting the backend requires a Java environment
