@@ -228,6 +228,7 @@ docker rm -f $(docker ps -aq)
 
 # Backend
 
+#### Starting the backend requires a Java environment
 
 #### Start Backend
 
@@ -242,3 +243,6 @@ cd java-fabric
 cd java-fabric
 ./app.stop
 ```
+
+
+
