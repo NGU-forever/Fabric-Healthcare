@@ -8,7 +8,7 @@ setting
 Host Fabric
   HostName 47.237.161.142
   User root
-  IdentityFile C:/Users/DELL/.ssh/NGU.pem
+  IdentityFile ~/.ssh/NGU.pem
 ```
 
 ## Project github address
