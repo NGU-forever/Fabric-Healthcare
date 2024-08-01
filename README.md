@@ -3,7 +3,7 @@
 ## Project github address
 https://github.com/NGU-forever/Fabric-Healthcare
 
-Explorer: http://47.237.161.142:8080
+Explorer: http://47.237.161.142:8080 (User:exploeradmin, Passsword:exploreradminpw)
 
 Backend:http://47.237.161.142:8888
 
