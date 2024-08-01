@@ -1,5 +1,16 @@
 # Fabric-Healthcare
 
+## If the configuration environment is unsuccessful
+
+In the job zip file we uploaded there is a private key to connect to the cloud server, you can connect to the server to see that. The server address is ```47.237.161.142``` and the User is ```root```.
+setting
+```
+Host Fabric
+  HostName 47.237.161.142
+  User root
+  IdentityFile C:/Users/DELL/.ssh/NGU.pem
+```
+
 ## Project github address
 https://github.com/NGU-forever/Fabric-Healthcare
 
