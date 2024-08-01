@@ -5,6 +5,9 @@ https://github.com/NGU-forever/Fabric-Healthcare
 
 Explorer: http://47.237.161.142:8080 (User:exploreradmin, Passsword:exploreradminpw)
 
+<img width="1440" alt="截屏2024-08-01 11 46 58" src="https://github.com/user-attachments/assets/6c90b615-e5fd-4ef3-90fb-04b1ff9057f3">
+
+
 Backend:http://47.237.161.142:8888
 
 ## Project Strcture and Member contribution
