@@ -225,3 +225,20 @@ docker rm -f $(docker ps -aq)
 
 #### Then start again
 
+
+# Backend
+
+
+#### Start Backend
+
+```sh
+cd java-fabric
+./app.start
+```
+
+#### Stop Backend
+
+```sh
+cd java-fabric
+./app.stop
+```
