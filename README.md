@@ -147,6 +147,7 @@ sudo apt install jq
 git clone https://github.com/NGU-forever/Fabric-Healthcare.git
 ```
 
+#### Or unzip
 ```sh
 unzip Fabric-Healthcare-main.zip
 ```
