@@ -226,7 +226,11 @@ docker rm -f $(docker ps -aq)
 #### Then start again
 
 
-# Backend
+## Chaincode
+
+smart_contract_addresses can check Hyperledger explorer: http://47.237.161.142:8080 (User:exploreradmin, Passsword:exploreradminpw)
+
+## Backend
 
 #### Starting the backend requires a Java environment
 
@@ -244,7 +248,7 @@ cd java-fabric
 ./app.stop
 ```
 
-# Frontend
+## Frontend
 
 #### Starting the frontend requires Node.js, npm and Vue-CLI
 
