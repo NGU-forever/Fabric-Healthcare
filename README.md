@@ -262,10 +262,12 @@ go mod vendor
 
 #### Starting the backend requires a Java environment
 
+Because the java file is too large, you need to manually download the jar file and add it in ```Fabric-Healthcare/app/backend``` directory. The download link is as follows: https://drive.google.com/file/d/1-19k2ru4iJzruFTwnOXhVDGPT3rOAKCN/view?usp=sharing
+
 #### Start Backend
 
 ```sh
-cd java-fabric
+cd ../../app/backend
 ./app.start
 ```
 
