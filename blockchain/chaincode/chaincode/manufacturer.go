@@ -9,14 +9,11 @@ import (
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 
-type ManufacturerDrug struct {
-	Name           string
-	TraceCode      string
-	Manufacturer   string
-	Price          float64
-	ProductionTime string
-	InStock        bool
+type ManufacturerContract struct {
+	contractapi.Contract
 }
+
+var manufacturers = map[string]*Manufacturer{}
 
 type Manufacturer struct {
 	Name      string
@@ -26,11 +23,13 @@ type Manufacturer struct {
 	mu        sync.Mutex
 }
 
-type ManufacturerContract struct {
-	contractapi.Contract
+type ManufacturerDrug struct {
+	Name           string
+	TraceCode      string
+	Manufacturer   string
+	Price          float64
+	ProductionTime string
 }
-
-var manufacturers = map[string]*Manufacturer{}
 
 // CreateManufacturer creates a new manufacturer.
 // Parameters:
@@ -65,54 +64,44 @@ func (mc *ManufacturerContract) CreateManufacturer(ctx contractapi.TransactionCo
 	return ctx.GetStub().PutState(name, manufacturerJSON)
 }
 
-// ProduceDrug produces a new drug and generates a trace code for it.
+// AddDrugToMnfcInventory adds a new drug to the manufacturer's inventory.
 // Parameters:
 // - ctx: the transaction context provided by Hyperledger Fabric.
 // - manufacturerName: the name of the manufacturer producing the drug.
-// - drugName: the name of the drug to produce.
+// - drugName: the name of the drug to add.
+// - traceCode: the trace code of the drug.
 // - price: the price of the drug.
 //
 // This function checks if the manufacturer exists. If not, it returns an error.
-// It also checks if the drug already exists in the manufacturer's inventory.
-// If the drug already exists, it returns an error. Otherwise, it creates a new drug
-// with a generated trace code and the provided details. The drug is then added to the
-// manufacturer's inventory and stored in the world state.
+// It then adds the drug with the provided trace code to the manufacturer's inventory
+// and stores the updated manufacturer in the world state.
 //
 // Returns:
-//   - string: the generated trace code if the operation is successful.
-//   - error: nil if the operation is successful, or an error message if it fails,
-//     the manufacturer does not exist, or the drug already exists.
-func (mc *ManufacturerContract) ProduceDrug(ctx contractapi.TransactionContextInterface, manufacturerName, drugName string, price float64) (string, error) {
+// - error: nil if the operation is successful, or an error message if it fails.
+func (mc *ManufacturerContract) AddDrugToMnfcInventory(ctx contractapi.TransactionContextInterface, manufacturerName, drugName, traceCode string, price float64) error {
 	manufacturer, exists := manufacturers[manufacturerName]
 	if !exists {
-		return "", fmt.Errorf("manufacturer not found")
+		return fmt.Errorf("manufacturer not found")
 	}
 
 	manufacturer.mu.Lock()
 	defer manufacturer.mu.Unlock()
 
-	if _, exists := manufacturer.Inventory[drugName]; exists {
-		return "", fmt.Errorf("drug already exists")
-	}
-
-	productionTime := time.Now().Format(time.RFC3339)
-	traceCode := GenerateTraceCode(drugName, manufacturerName, fmt.Sprintf("%.2f", price), productionTime)
 	drug := ManufacturerDrug{
 		Name:           drugName,
 		TraceCode:      traceCode,
 		Manufacturer:   manufacturerName,
 		Price:          price,
-		ProductionTime: productionTime,
-		InStock:        true,
+		ProductionTime: time.Now().Format(time.RFC3339),
 	}
 
-	manufacturer.Inventory[drugName] = drug
+	manufacturer.Inventory[traceCode] = drug
 	manufacturerJSON, err := json.Marshal(manufacturer)
 	if err != nil {
-		return "", err
+		return err
 	}
 
-	return traceCode, ctx.GetStub().PutState(manufacturerName, manufacturerJSON)
+	return ctx.GetStub().PutState(manufacturerName, manufacturerJSON)
 }
 
 func (mc *ManufacturerContract) GetManufacturers(ctx contractapi.TransactionContextInterface) ([]string, error) {
@@ -121,4 +110,34 @@ func (mc *ManufacturerContract) GetManufacturers(ctx contractapi.TransactionCont
 		manufacturerList = append(manufacturerList, manufacturerName)
 	}
 	return manufacturerList, nil
+}
+
+// RemoveDrugFromMnfcInventory removes a drug from the inventory and returns its trace code.
+func (mc *ManufacturerContract) RemoveDrugFromMnfcInventory(ctx contractapi.TransactionContextInterface, manufacturerName, drugName string) (string, error) {
+	manufacturer, exists := manufacturers[manufacturerName]
+	if !exists {
+		return "", fmt.Errorf("manufacturer not found")
+	}
+
+	manufacturer.mu.Lock()
+	defer manufacturer.mu.Unlock()
+
+	for traceCode, drug := range manufacturer.Inventory {
+		if drug.Name == drugName {
+			delete(manufacturer.Inventory, traceCode)
+
+			manufacturerJSON, err := json.Marshal(manufacturer)
+			if err != nil {
+				return "", err
+			}
+
+			if err := ctx.GetStub().PutState(manufacturerName, manufacturerJSON); err != nil {
+				return "", err
+			}
+
+			return traceCode, nil // 找到药品并删除后立即返回
+		}
+	}
+
+	return "", fmt.Errorf("drug not available")
 }

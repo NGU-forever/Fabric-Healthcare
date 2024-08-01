@@ -8,10 +8,25 @@ import (
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 
+type HospitalContract struct {
+	contractapi.Contract
+}
+
+var hospitals = map[string]*Hospital{}
+
+type Hospital struct {
+	Name      string
+	Contact   string
+	Reports   map[int]MedicalReport
+	Inventory map[string]HospitalDrug
+	Patients  map[string]string
+	Channels  map[string]bool
+	mu        sync.Mutex
+}
+
 type HospitalDrug struct {
 	Name         string
 	TraceCode    string
-	InStock      bool
 	HospitalName string
 }
 
@@ -21,30 +36,6 @@ type MedicalReport struct {
 	Symptoms    string
 	NeededDrugs []string
 }
-
-type Hospital struct {
-	Name      string
-	Contact   string
-	Reports   map[int]MedicalReport
-	Inventory map[string]HospitalDrug
-	Patients  map[string]Patient
-	Channels  map[string]bool
-	mu        sync.Mutex
-}
-
-type DrugInfo struct {
-	Name           string
-	TraceCode      string
-	Manufacturer   string
-	Price          float64
-	ProductionTime string
-}
-
-type HospitalContract struct {
-	contractapi.Contract
-}
-
-var hospitals = map[string]*Hospital{}
 
 // CreateHospital creates a new hospital record in the ledger.
 // Parameters:
@@ -71,7 +62,7 @@ func (hc *HospitalContract) CreateHospital(ctx contractapi.TransactionContextInt
 		Contact:   contact,
 		Reports:   make(map[int]MedicalReport),
 		Inventory: make(map[string]HospitalDrug),
-		Patients:  make(map[string]Patient),
+		Patients:  make(map[string]string),
 		Channels:  make(map[string]bool),
 	}
 
@@ -82,6 +73,25 @@ func (hc *HospitalContract) CreateHospital(ctx contractapi.TransactionContextInt
 	}
 
 	return ctx.GetStub().PutState(name, hospitalJSON)
+}
+
+// CreatePatientRecord creates a new patient record in the hospital's Patients map.
+func (hc *HospitalContract) CreatePatientRecord(ctx contractapi.TransactionContextInterface, hospitalName string, patientName string) error {
+	hospital, hospitalExists := hospitals[hospitalName]
+	if !hospitalExists {
+		return fmt.Errorf("hospital not found")
+	}
+
+	hospital.mu.Lock()
+	defer hospital.mu.Unlock()
+
+	hospital.Patients[patientName] = patientName
+	hospitalJSON, err := json.Marshal(hospital)
+	if err != nil {
+		return err
+	}
+
+	return ctx.GetStub().PutState(hospitalName, hospitalJSON)
 }
 
 // ModifyReport modifies a medical report for a patient in a hospital.
@@ -130,95 +140,6 @@ func (hc *HospitalContract) ModifyReport(ctx contractapi.TransactionContextInter
 	return reportID, ctx.GetStub().PutState(hospitalName, hospitalJSON)
 }
 
-// BuyDrug allows a hospital to purchase a drug from a manufacturer.
-// Parameters:
-// - ctx: the transaction context provided by Hyperledger Fabric.
-// - hospitalName: the name of the hospital buying the drug.
-// - manufacturerName: the name of the manufacturer selling the drug.
-// - drugName: the name of the drug being purchased.
-//
-// This function first checks if the hospital and manufacturer exist. If either does not exist, it returns an error.
-// If both exist, it checks if the drug is available in the manufacturer's inventory and if it's in stock.
-// If the drug is available and in stock, it updates the drug's status to 'not in stock' in the manufacturer's inventory
-// and adds the drug to the hospital's inventory. The hospital and manufacturer records are then updated in the ledger.
-//
-// Returns:
-// - string: the trace code of the purchased drug if the operation is successful.
-// - error: nil if the operation is successful, or an error message if it fails.
-func (hc *HospitalContract) BuyDrug(ctx contractapi.TransactionContextInterface, hospitalName, manufacturerName, drugName string) (string, error) {
-	hospital, hospitalExists := hospitals[hospitalName]
-	if !hospitalExists {
-		return "", fmt.Errorf("hospital not found")
-	}
-
-	manufacturer, manufacturerExists := manufacturers[manufacturerName]
-	if !manufacturerExists {
-		return "", fmt.Errorf("manufacturer not found")
-	}
-
-	manufacturer.mu.Lock()
-	defer manufacturer.mu.Unlock()
-
-	if drug, exists := manufacturer.Inventory[drugName]; exists && drug.InStock {
-		drug.InStock = false
-		hospital.Inventory[drugName] = HospitalDrug{
-			Name:         drug.Name,
-			TraceCode:    drug.TraceCode,
-			HospitalName: hospitalName,
-			InStock:      true,
-		}
-
-		hospitalJSON, err := json.Marshal(hospital)
-		if err != nil {
-			return "", err
-		}
-
-		manufacturerJSON, err := json.Marshal(manufacturer)
-		if err != nil {
-			return "", err
-		}
-
-		if err := ctx.GetStub().PutState(hospitalName, hospitalJSON); err != nil {
-			return "", err
-		}
-
-		if err := ctx.GetStub().PutState(manufacturerName, manufacturerJSON); err != nil {
-			return "", err
-		}
-
-		return drug.TraceCode, nil
-	}
-
-	return "", fmt.Errorf("drug not available")
-}
-
-// TraceDrug traces the drug based on its trace code.
-// Parameters:
-// - ctx: the transaction context provided by Hyperledger Fabric.
-// - traceCode: the unique trace code of the drug.
-//
-// This function decodes the trace code to retrieve the drug's information including
-// the drug's name, manufacturer, price, and production time. It returns this information
-// encapsulated in a DrugInfo struct.
-//
-// Returns:
-// - DrugInfo: a struct containing the traced drug's information if the operation is successful.
-// - error: nil if the operation is successful, or an error message if it fails.
-func (hc *HospitalContract) TraceDrug(ctx contractapi.TransactionContextInterface, traceCode string) (DrugInfo, error) {
-	drugName, manufacturerName, price, productionTime, err := DecodeTraceCode(traceCode)
-	if err != nil {
-		return DrugInfo{}, err
-	}
-
-	return DrugInfo{
-		Name:           drugName,
-		TraceCode:      traceCode,
-		Manufacturer:   manufacturerName,
-		Price:          price,
-		ProductionTime: productionTime,
-	}, nil
-}
-
 // GetPatients returns a list of patients in a hospital.
 // Parameters:
 // - ctx: the transaction context provided by Hyperledger Fabric.
@@ -238,8 +159,8 @@ func (hc *HospitalContract) GetPatients(ctx contractapi.TransactionContextInterf
 	}
 
 	var patientList []string
-	for patient := range hospital.Patients {
-		patientList = append(patientList, patient)
+	for patientName := range hospital.Patients {
+		patientList = append(patientList, patientName)
 	}
 
 	return patientList, nil
@@ -261,4 +182,116 @@ func (hc *HospitalContract) GetHospitals(ctx contractapi.TransactionContextInter
 		hospitalList = append(hospitalList, hospitalName)
 	}
 	return hospitalList, nil
+}
+
+// AddDrugToHospitalInventory adds a drug to the hospital's inventory.
+// Parameters:
+// - ctx: the transaction context provided by Hyperledger Fabric.
+// - hospitalName: the name of the hospital.
+// - drugName: the name of the drug being added.
+// - traceCode: the trace code of the drug.
+//
+// This function checks if the hospital exists. If not, it returns an error.
+// It then adds the drug to the hospital's inventory.
+func (hc *HospitalContract) AddDrugToHospitalInventory(ctx contractapi.TransactionContextInterface, hospitalName, drugName, traceCode string) error {
+	hospital, hospitalExists := hospitals[hospitalName]
+	if !hospitalExists {
+		return fmt.Errorf("hospital not found")
+	}
+
+	hospital.mu.Lock()
+	defer hospital.mu.Unlock()
+
+	hospital.Inventory[traceCode] = HospitalDrug{
+		Name:         drugName,
+		TraceCode:    traceCode,
+		HospitalName: hospitalName,
+	}
+
+	hospitalJSON, err := json.Marshal(hospital)
+	if err != nil {
+		return err
+	}
+
+	return ctx.GetStub().PutState(hospitalName, hospitalJSON)
+}
+
+// RemoveDrugFromHospitalInventory removes a drug from the hospital's inventory and returns its trace code.
+// Parameters:
+// - ctx: the transaction context provided by Hyperledger Fabric.
+// - hospitalName: the name of the hospital selling the drug.
+// - drugName: the name of the drug being sold.
+//
+// This function checks if the hospital exists. If not, it returns an error.
+// If the drug is available in the hospital's inventory, it is removed and its trace code is returned.
+//
+// Returns:
+// - string: the trace code if the operation is successful.
+// - error: nil if the operation is successful, or an error message if it fails.
+func (hc *HospitalContract) RemoveDrugFromHospitalInventory(ctx contractapi.TransactionContextInterface, hospitalName, drugName string) (string, error) {
+	hospital, hospitalExists := hospitals[hospitalName]
+	if !hospitalExists {
+		return "", fmt.Errorf("hospital not found")
+	}
+
+	hospital.mu.Lock()
+	defer hospital.mu.Unlock()
+
+	for traceCode, drug := range hospital.Inventory {
+		if drug.Name == drugName {
+			delete(hospital.Inventory, traceCode)
+
+			hospitalJSON, err := json.Marshal(hospital)
+			if err != nil {
+				return "", err
+			}
+
+			if err := ctx.GetStub().PutState(hospitalName, hospitalJSON); err != nil {
+				return "", err
+			}
+
+			return traceCode, nil // 返回溯源码
+		}
+	}
+
+	return "", fmt.Errorf("drug not available")
+}
+
+// check hospital is valid or not
+func (hc *HospitalContract) ValidHospital(ctx contractapi.TransactionContextInterface, hospitalName string) (bool, error) {
+	hospitalJSON, err := ctx.GetStub().GetState(hospitalName)
+	if err != nil {
+		return false, fmt.Errorf("failed to read hospital from world state: %v", err)
+	}
+	if hospitalJSON == nil {
+		return false, nil // Hospital does not exist
+	}
+
+	return true, nil // Hospital exists
+}
+
+// ViewReport retrieves a medical report for a patient from a specified hospital.
+// Parameters:
+// - ctx: the transaction context provided by Hyperledger Fabric.
+// - patientName: the name of the patient.
+// - hospitalName: the name of the hospital.
+// - reportID: the ID of the medical report to retrieve.
+//
+// This function checks if the hospital exists and if the medical report exists and belongs to the specified patient.
+// If either condition is not met, it returns an error. Otherwise, it returns the medical report.
+//
+// Returns:
+// - MedicalReport: the medical report if found.
+// - error: nil if the operation is successful, or an error message if the hospital or report does not exist.
+func (hc *HospitalContract) ViewReport(ctx contractapi.TransactionContextInterface, patientName, hospitalName string, reportID int) (MedicalReport, error) {
+	hospital := hospitals[hospitalName]
+	if hospital == nil {
+		return MedicalReport{}, fmt.Errorf("hospital not found")
+	}
+
+	if report, exists := hospital.Reports[reportID]; exists && report.PatientName == patientName {
+		return report, nil
+	}
+
+	return MedicalReport{}, fmt.Errorf("report not found")
 }

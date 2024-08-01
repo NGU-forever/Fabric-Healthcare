@@ -1,0 +1,6 @@
+fabric:
+  chaincodeId: mycc3
+  path: /root/java-fabric/
+
+server:
+  port: 8888

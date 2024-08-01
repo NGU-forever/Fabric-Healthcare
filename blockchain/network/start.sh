@@ -1,7 +1,7 @@
 #!/bin/bash
 ./stop.sh
 # mysql
-docker run --name fabrictrace-mysql -p 3337:3306 -e MYSQL_ROOT_PASSWORD=fabrictrace -d mysql:8
+docker run --name fabrihealth-mysql -p 3337:3306 -e MYSQL_ROOT_PASSWORD=fabrihealth -d mysql:8
 
 #check images and pulling
 image_versions=("2.5.9")
@@ -21,22 +21,18 @@ do
 done
 
 
-# blockchain up and create channels
- ./network.sh up createChannel
+# blockchain up and create channels with couchdb
+ ./network.sh up createChannel -s couchdb
 
  # start explorer
 cd explorer
 export EXPLORER_CONFIG_FILE_PATH=./config.json
 export EXPLORER_PROFILE_DIR_PATH=./connection-profile
 export FABRIC_CRYPTO_PATH=./organizations
+docker-compose down -v
 cp -r ../organizations/ .
 docker-compose up -d
 
 # deploy chaincode
 cd ~/Fabric-Healthcare/blockchain/network/
-./network.sh deployCC -ccn mycc -ccp ../chaincode -ccl go
-
-
-
-
-
+./network.sh deployCC -ccn mycc3 -ccp ../chaincode -ccl go
