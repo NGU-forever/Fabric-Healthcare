@@ -4,6 +4,7 @@
 https://github.com/NGU-forever/Fabric-Healthcare
 
 ## Project Strcture and Member contribution
+```
 Fabric-Healthcare/
 ├── app/
 │   ├── backend/             (backend)
@@ -12,6 +13,7 @@ Fabric-Healthcare/
 │   ├── chaincode/           (Chaincode)
 │   ├── network/             (Blockchain)
 ├── README.md
+```
 
 Frank Xiong(z5503242): Blockchain architecture and framwork part
 Zenglin Zhong(z5360071):  Chaincode part
