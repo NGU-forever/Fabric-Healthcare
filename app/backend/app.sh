@@ -20,7 +20,7 @@ GC_LOG_OPTS="-XX:+UseG1GC -XX:+PrintGCDetails -Xloggc:gc.log -Xlog:gc+heap=trace
 sudo rm -rf ./crypto-config/ordererOrganizations
 sudo rm -rf ./crypto-config/peerOrganizations
 sudo cp ../../blockchain/network/organizations/ordererOrganizations
-sudo cp ../../Fabric-Healthcare/blockchain/network/organizations/peerOrganizations
+sudo cp ../../blockchain/network/organizations/peerOrganizations
 # 定义启动Spring Boot应用的命令
 start() {
     stop
