@@ -1,0 +1,779 @@
+2024-07-30T20:30:01.992+08:00  WARN 751836 --- [fabric] [main] o.hyperledger.fabric.sdk.helper.Config   : Failed to load any configuration from: config.properties. Using toolkit defaults
+2024-07-30T20:30:25.520+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:30:25.520+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:30:25.521+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T20:30:49.614+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:30:49.614+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:30:49.614+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T20:30:57.570+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-8] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:30:57.570+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-8] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:30:57.570+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-8] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T20:31:21.029+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital not found
+2024-07-30T20:31:21.029+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital not found
+2024-07-30T20:31:21.030+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital not found; hospital not found
+2024-07-30T20:33:18.809+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:33:18.810+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:33:18.810+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T20:39:08.846+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:39:08.847+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:39:08.847+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T20:39:11.495+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T20:39:11.495+08:00  WARN 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T20:39:11.495+08:00 ERROR 751836 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T21:43:45.094+08:00  WARN 765294 --- [fabric] [main] o.hyperledger.fabric.sdk.helper.Config   : Failed to load any configuration from: config.properties. Using toolkit defaults
+2024-07-30T21:44:04.680+08:00  WARN 765456 --- [fabric] [main] o.hyperledger.fabric.sdk.helper.Config   : Failed to load any configuration from: config.properties. Using toolkit defaults
+2024-07-30T21:45:01.481+08:00  WARN 765456 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T21:45:01.481+08:00  WARN 765456 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T21:45:01.482+08:00 ERROR 765456 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T21:45:47.473+08:00  WARN 765456 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message Function ConductExamination not found in contract PatientContract
+2024-07-30T21:45:47.473+08:00  WARN 765456 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message Function ConductExamination not found in contract PatientContract
+2024-07-30T21:45:47.473+08:00 ERROR 765456 --- [fabric] [http-nio-8888-exec-6] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: Function ConductExamination not found in contract PatientContract; Function ConductExamination not found in contract PatientContract
+2024-07-30T22:35:17.177+08:00  WARN 767552 --- [fabric] [main] o.hyperledger.fabric.sdk.helper.Config   : Failed to load any configuration from: config.properties. Using toolkit defaults
+2024-07-30T22:36:19.180+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T22:36:19.181+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T22:36:19.181+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T22:36:24.120+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T22:36:24.120+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T22:36:24.120+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-2] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T22:39:38.194+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-5] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T22:39:38.194+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-5] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T22:39:38.195+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-5] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T22:39:40.971+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital already exists
+2024-07-30T22:39:40.971+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital already exists
+2024-07-30T22:39:40.971+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital already exists; hospital already exists
+2024-07-30T22:40:32.781+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T22:40:32.781+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T22:40:32.781+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: Function CreatePatientRecord not found in contract PatientContract; Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T22:46:28.974+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-6] org.hyperledger.fabric.sdk.Channel       : java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+
+org.hyperledger.fabric.sdk.exception.ProposalException: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4829) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendTransactionProposal(Channel.java:4361) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.sendTransactionProposal(TransactionImpl.java:136) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.endorseTransaction(TransactionImpl.java:120) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.submit(TransactionImpl.java:106) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.ContractImpl.submitTransaction(ContractImpl.java:50) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.controllers.ContractController.produceDrug(ContractController.java:121) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createChaincodeInvocationSpec(ProposalBuilder.java:176) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createFabricProposal(ProposalBuilder.java:131) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.build(ProposalBuilder.java:112) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4823) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	... 56 common frames omitted
+
+2024-07-30T22:52:16.277+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message manufacturer not found
+2024-07-30T22:52:16.277+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message manufacturer not found
+2024-07-30T22:52:16.277+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-7] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: manufacturer not found; manufacturer not found
+2024-07-30T23:04:03.720+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-3] org.hyperledger.fabric.sdk.Channel       : java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+
+org.hyperledger.fabric.sdk.exception.ProposalException: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4829) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendTransactionProposal(Channel.java:4361) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.sendTransactionProposal(TransactionImpl.java:136) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.endorseTransaction(TransactionImpl.java:120) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.submit(TransactionImpl.java:106) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.ContractImpl.submitTransaction(ContractImpl.java:50) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.controllers.ContractController.buyDrug(ContractController.java:65) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createChaincodeInvocationSpec(ProposalBuilder.java:176) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createFabricProposal(ProposalBuilder.java:131) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.build(ProposalBuilder.java:112) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4823) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	... 56 common frames omitted
+
+2024-07-30T23:08:13.128+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-9] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message drug not available
+2024-07-30T23:08:13.128+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-9] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message drug not available
+2024-07-30T23:08:13.128+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-9] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: drug not available; drug not available
+2024-07-30T23:08:35.869+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-10] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message drug not available
+2024-07-30T23:08:35.870+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-10] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message drug not available
+2024-07-30T23:08:35.870+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-10] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: drug not available; drug not available
+2024-07-30T23:10:01.908+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-6] org.hyperledger.fabric.sdk.Channel       : java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+
+org.hyperledger.fabric.sdk.exception.ProposalException: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4829) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendTransactionProposal(Channel.java:4361) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.sendTransactionProposal(TransactionImpl.java:136) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.endorseTransaction(TransactionImpl.java:120) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.submit(TransactionImpl.java:106) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.ContractImpl.submitTransaction(ContractImpl.java:50) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.controllers.ContractController.buyDrug(ContractController.java:65) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createChaincodeInvocationSpec(ProposalBuilder.java:176) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createFabricProposal(ProposalBuilder.java:131) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.build(ProposalBuilder.java:112) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4823) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	... 56 common frames omitted
+
+2024-07-30T23:10:42.996+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-7] org.hyperledger.fabric.sdk.Channel       : java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+
+org.hyperledger.fabric.sdk.exception.ProposalException: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4829) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendTransactionProposal(Channel.java:4361) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.sendTransactionProposal(TransactionImpl.java:136) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.endorseTransaction(TransactionImpl.java:120) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.submit(TransactionImpl.java:106) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.ContractImpl.submitTransaction(ContractImpl.java:50) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.controllers.ContractController.buyDrug(ContractController.java:65) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createChaincodeInvocationSpec(ProposalBuilder.java:176) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createFabricProposal(ProposalBuilder.java:131) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.build(ProposalBuilder.java:112) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4823) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	... 56 common frames omitted
+
+2024-07-30T23:10:53.714+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-8] org.hyperledger.fabric.sdk.Channel       : java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+
+org.hyperledger.fabric.sdk.exception.ProposalException: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4829) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendTransactionProposal(Channel.java:4361) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.sendTransactionProposal(TransactionImpl.java:136) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.endorseTransaction(TransactionImpl.java:120) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.TransactionImpl.submit(TransactionImpl.java:106) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.ContractImpl.submitTransaction(ContractImpl.java:50) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.controllers.ContractController.buyDrug(ContractController.java:65) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar!/:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar!/:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "arg" is null
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createChaincodeInvocationSpec(ProposalBuilder.java:176) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.createFabricProposal(ProposalBuilder.java:131) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.transaction.ProposalBuilder.build(ProposalBuilder.java:112) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.Channel.sendProposal(Channel.java:4823) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	... 56 common frames omitted
+
+2024-07-30T23:11:52.418+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message drug not available
+2024-07-30T23:11:52.418+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message drug not available
+2024-07-30T23:11:52.418+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-1] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: drug not available; drug not available
+2024-07-30T23:11:57.844+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message hospital not found
+2024-07-30T23:11:57.844+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message hospital not found
+2024-07-30T23:11:57.844+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-3] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: hospital not found; hospital not found
+2024-07-30T23:12:10.413+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message drug not available
+2024-07-30T23:12:10.413+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message drug not available
+2024-07-30T23:12:10.414+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: drug not available; drug not available
+2024-07-30T23:14:33.399+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:9051, message Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T23:14:33.399+08:00  WARN 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : validatePeerResponses: invalid response from peer grpcs://47.237.161.142:7051, message Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T23:14:33.399+08:00 ERROR 767552 --- [fabric] [http-nio-8888-exec-4] o.h.fabric.gateway.impl.TransactionImpl  : No valid proposal responses received. 2 peer error responses: Function CreatePatientRecord not found in contract PatientContract; Function CreatePatientRecord not found in contract PatientContract
+2024-07-30T23:20:14.776+08:00  WARN 772631 --- [fabric] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+2024-07-30T23:20:14.800+08:00 ERROR 772631 --- [fabric] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at com.fabric.fabric.Application.main(Application.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 54 common frames omitted
+Caused by: java.io.IOException: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:101) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:87) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:67) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig.gateway(HyperLedgerFabricGatewayJavaConfig.java:55) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.CGLIB$gateway$1(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.gateway(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 55 common frames omitted
+Caused by: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.sdk.NetworkConfig.createAllPeers(NetworkConfig.java:570) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.<init>(NetworkConfig.java:245) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.load(NetworkConfig.java:393) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromJsonObject(NetworkConfig.java:359) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromYamlStream(NetworkConfig.java:313) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:98) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	... 68 common frames omitted
+
+2024-07-30T23:21:11.039+08:00  WARN 772891 --- [fabric] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+2024-07-30T23:21:18.999+08:00  WARN 773001 --- [fabric] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+2024-07-30T23:21:19.039+08:00 ERROR 773001 --- [fabric] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at com.fabric.fabric.Application.main(Application.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 54 common frames omitted
+Caused by: java.io.IOException: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:101) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:87) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:67) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig.gateway(HyperLedgerFabricGatewayJavaConfig.java:55) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.CGLIB$gateway$1(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.gateway(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 55 common frames omitted
+Caused by: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.sdk.NetworkConfig.createAllPeers(NetworkConfig.java:570) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.<init>(NetworkConfig.java:245) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.load(NetworkConfig.java:393) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromJsonObject(NetworkConfig.java:359) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromYamlStream(NetworkConfig.java:313) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:98) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	... 68 common frames omitted
+
+2024-07-30T23:22:06.651+08:00  WARN 773280 --- [fabric] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+2024-07-30T23:22:06.675+08:00 ERROR 773280 --- [fabric] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at com.fabric.fabric.Application.main(Application.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 54 common frames omitted
+Caused by: java.io.IOException: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:101) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:87) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:67) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig.gateway(HyperLedgerFabricGatewayJavaConfig.java:55) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.CGLIB$gateway$1(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.gateway(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 55 common frames omitted
+Caused by: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.sdk.NetworkConfig.createAllPeers(NetworkConfig.java:570) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.<init>(NetworkConfig.java:245) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.load(NetworkConfig.java:393) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromJsonObject(NetworkConfig.java:359) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromYamlStream(NetworkConfig.java:313) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:98) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	... 68 common frames omitted
+
+2024-07-30T23:23:55.720+08:00  WARN 773715 --- [fabric] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+2024-07-30T23:23:55.748+08:00 ERROR 773715 --- [fabric] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractController' defined in URL [jar:nested:/root/java-fabric/fabric-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/fabric/fabric/controllers/ContractController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar!/:3.3.2]
+	at com.fabric.fabric.Application.main(Application.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[fabric-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contractUtil': Unsatisfied dependency expressed through field 'gateway': Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gateway' defined in class path resource [com/fabric/fabric/config/HyperLedgerFabricGatewayJavaConfig.class]: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hyperledger.fabric.gateway.Gateway]: Factory method 'gateway' threw exception with message: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 54 common frames omitted
+Caused by: java.io.IOException: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:101) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:87) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:67) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig.gateway(HyperLedgerFabricGatewayJavaConfig.java:55) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.CGLIB$gateway$1(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.11.jar!/:6.1.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348) ~[spring-context-6.1.11.jar!/:6.1.11]
+	at com.fabric.fabric.config.HyperLedgerFabricGatewayJavaConfig$$SpringCGLIB$$0.gateway(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.11.jar!/:6.1.11]
+	... 55 common frames omitted
+Caused by: org.hyperledger.fabric.sdk.exception.NetworkConfigurationException: Error loading config. Invalid peer entry: certificateAuthorities
+	at org.hyperledger.fabric.sdk.NetworkConfig.createAllPeers(NetworkConfig.java:570) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.<init>(NetworkConfig.java:245) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.load(NetworkConfig.java:393) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromJsonObject(NetworkConfig.java:359) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.sdk.NetworkConfig.fromYamlStream(NetworkConfig.java:313) ~[fabric-sdk-java-2.2.26.jar!/:na]
+	at org.hyperledger.fabric.gateway.impl.GatewayImpl$Builder.networkConfig(GatewayImpl.java:98) ~[fabric-gateway-java-2.2.9.jar!/:na]
+	... 68 common frames omitted
+
