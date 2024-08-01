@@ -16,10 +16,15 @@ Fabric-Healthcare/
 ```
 
 Frank Xiong(z5503242): Blockchain architecture and framwork part
+
 Zenglin Zhong(z5360071):  Chaincode part
+
 Danniel Deng(z5275904): Backend part
+
 Zeyu Wang(z5453260): Frontend
+
 Yifan Hong(z5414347): Off-chain componet
+
 ## The part of Blockchain
 
 The blockchain platform used in this project is Hyperledger Fabric, the version of which is V2.5, which has better performance and stability, and the Fabric-gateway mode is used to invoke and use chaincode. The technology stack used in this blockchain is as follows: CouchDB is used to view the blockchain data status and world status, and Hyperledger explorer is used to view the blockchain node status, on-chain situation, chaincode definition, transactions, and so on. The blockchain is deployed on cloud servers throughout to ensure its stability and discharge the numerous problems that occur in virtual machines.
