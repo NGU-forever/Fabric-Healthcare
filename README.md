@@ -244,7 +244,7 @@ cd java-fabric
 ./app.stop
 ```
 
-#Frontend
+# Frontend
 
 #### Starting the frontend requires Node.js, npm and Vue-CLI
 
